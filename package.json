@@ -1,0 +1,21 @@
+{
+  "name": "headless-chrome-kit",
+  "version": "0.1.0",
+  "description": "Small helpers for launching and driving headless Chrome over the Chrome DevTools Protocol",
+  "type": "module",
+  "bin": {
+    "hck-launch": "bin/launch.js",
+    "hck-screenshot": "bin/screenshot.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "chrome",
+    "headless",
+    "cdp",
+    "devtools-protocol",
+    "screenshot"
+  ],
+  "license": "MIT"
+}
